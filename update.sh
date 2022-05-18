@@ -1,0 +1,1 @@
+ls img/ | sed "s/^/![img](img\//g;s/$/)/g" > images.md
